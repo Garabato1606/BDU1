@@ -1,0 +1,240 @@
+MySQL Shell 8.0.12
+
+Copyright (c) 2016, 2018, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type '\help' or '\?' for help; '\quit' to exit.
+
+
+ MySQL  JS > \sql
+Switching to SQL mode... Commands end with ;
+
+ MySQL  SQL > \connect -c root@localhost
+The -c option is deprecated, please use --mysql or -mc instead
+Creating a Classic session to 'root@localhost'
+Please provide the password for 'root@localhost': ****
+Save password for 'root@localhost:3306'? [Y]es/[N]o/Ne[v]er (default No): y
+Fetching schema names for autocompletion... Press ^C to stop.
+Your MySQL connection id is 14
+Server version: 8.0.12 MySQL Community Server - GPL
+No default schema selected; type \use <schema> to set one.
+
+ MySQL  localhost:3306 ssl  SQL > \use evaluacion1
+Default schema set to `evaluacion1`.
+Fetching table and column names from `evaluacion1` for auto-completion... Press ^C to stop.
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > show tables;
++-----------------------+
+| Tables_in_evaluacion1 |
++-----------------------+
+| carrera               |
+| compras               |
+| estudiantes           |
+| horario               |
+| jobs                  |
+| materias              |
+| nueva_carrera         |
+| nueva_carrerota       |
+| paises                |
+| personal              |
+| personal2             |
++-----------------------+
+11 rows in set (0.1097 sec)
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > create table factura(
+                                           ... no_factura int auto_increment primary key,
+                                           ... fecha_compra datetime,
+                                           ... insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+Query OK, 1 row affected (0.1513 sec)      ... acinsert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ERROR: 1064 (42000): You have an error in your acninsert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1); for the right syntax to use near '' at line 4
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acneinsert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);or the right syntax to use near ')' at line 5
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);archar(50), precio float);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);or the right syntax to use near 'auto _increm
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);mpra datetime, no_cliente int References clie
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);or the right syntax to use near 'auto _increm
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);mpra datetime, no_cliente int References clie
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ... ;
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ...
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ... e
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);archar(50), precio float, );adeefarvda
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ... c
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);archar(50), precio float, );adeefarvda
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ...
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ... n
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);archar(50), precio float, );adeefarvd
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ... '
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);archar(50), precio float, );adeefarliente) va
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);archar(50), precio fl
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ...
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ... i
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);archar(50), precio float, );ade
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ...
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ...
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ...
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ...
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ...
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ...
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ...
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ...
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ...
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ...
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);                                        ...
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);OR: 1064 (42000): You have an error in your S
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);rt into facturas(fecha_compra, no_cliente) va
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);s ('2018-0','perez');
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1); evaluacion1  SQL > acne insert into facturas
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);ompra, no_cliente) values ('2018-;','perez');
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);or the right syntax to use near 'acne insert
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);rt into facturas(fecha_compra, no_cliente) va
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);s ('2018-;','perez'); MySQL  localhost:3306 s
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1); evaluacion1  SQL > insert into facturas(fech
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);ompra, no_cliente) values ('2018-;','perez');
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);SQL  localhost:3306 ssl  evaluacion1  SQL > i
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);rt into facturas(fecha_compra, no_cliente) va
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);s ('2018-;','perez'); MySQL  localhost:3306 s
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > acne insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',1);
+Query OK, 1 row affected (0.1988 sec)
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > insert into facturas(fecha_compra, no_cliente) values ('2018-09-12',2);
+Query OK, 1 row affected (0.1838 sec)
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > alter table facturas(
+                                           ... add constraint foreign key (no_cliente)
+                                           ... references clientes(no_cliente) on delete restrict on update cascade);
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(
+add constraint foreign key (no_cliente)
+references clientes(no_cliente) on del' at line 1
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > alter table facturas( add constraint foreign key (no_cliente) references clientes(no_cliente) on delete restrict on update cascade);
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '( add constraint foreign key (no_cliente) references clientes(no_cliente) on del' at line 1
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > delete * from facturas;
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from facturas' at line 1
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > delete from facturas;
+Query OK, 3 rows affected (0.1600 sec)
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > alter table facturas add constraint foreign key (no_cliente) references clientes(no_cliente) on delete restrict on update cascade;
+Query OK, 0 rows affected (1.3840 sec)
+
+Records: 0  Duplicates: 0  Warnings: 0
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > insert into facturas(fecha_compra, no_control) values ('2018-09-11', 5);
+ERROR: 1054 (42S22): Unknown column 'no_control' in 'field list'
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > insert into facturas(fecha_compra, no_cliente) values ('2018-09-11', 5);
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`evaluacion1`.`facturas`, CONSTRAINT `facturas_ibfk_1` FOREIGN KEY (`no_cliente`) REFERENCES `clientes` (`no_cliente`) ON UPDATE CASCADE)
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > insert into facturas(fecha_compra, no_cliente) values ('2018-09-11',5);
+ERROR: 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`evaluacion1`.`facturas`, CONSTRAINT `facturas_ibfk_1` FOREIGN KEY (`no_cliente`) REFERENCES `clientes` (`no_cliente`) ON UPDATE CASCADE)
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > select * from clientes;
++------------+--------+----------+------+-----------+----------+---------+
+| no_cliente | nombre | apellido | RFC  | direccion | telefono | celular |
++------------+--------+----------+------+-----------+----------+---------+
+|          1 | juan   | perez    | NULL | NULL      | NULL     | NULL    |
++------------+--------+----------+------+-----------+----------+---------+
+1 row in set (0.0023 sec)
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > insert into facturas(fecha_compra, no_cliente) values ('2018-09-11',1);
+Query OK, 1 row affected (0.1391 sec)
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > update clientes set no_cliente = 2 where no_cliente = 1;
+Query OK, 1 row affected (0.1904 sec)
+
+Rows matched: 1  Changed: 1  Warnings: 0
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > select * from clientes;
++------------+--------+----------+------+-----------+----------+---------+
+| no_cliente | nombre | apellido | RFC  | direccion | telefono | celular |
++------------+--------+----------+------+-----------+----------+---------+
+|          2 | juan   | perez    | NULL | NULL      | NULL     | NULL    |
++------------+--------+----------+------+-----------+----------+---------+
+1 row in set (0.0005 sec)
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > selcto * from facturas;
+ERROR: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'selcto * from facturas' at line 1
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL > select * from facturas;
++-------------+---------------------+------------+
+| no_facturas | fecha_compra        | no_cliente |
++-------------+---------------------+------------+
+|           6 | 2018-09-11 00:00:00 |          2 |
++-------------+---------------------+------------+
+1 row in set (0.0005 sec)
+
+ MySQL  localhost:3306 ssl  evaluacion1  SQL >
